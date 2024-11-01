@@ -30,6 +30,7 @@ This is a Todo CRUD (Create, Read, Update, Delete) application built with Next.j
 - [MongoDB](https://www.mongodb.com/) - NoSQL database
 - [React](https://reactjs.org/) - JavaScript library for building user interfaces
 - [TypeScript](https://www.typescriptlang.org/) - JavaScript with static type definitions
+- [Shadcn](https://ui.shadcn.com/) - A collection of accessible UI components for building modern applications
 
 ## Getting Started
 
@@ -63,7 +64,7 @@ Make sure you have the following installed on your machine:
 1. Create a `.env` file in the prisma directory of your project and configure your MongoDB connection string:
 
    ```plaintext
-   DATABASE_URL="your_mongodb_connection_string"
+   DATABASE_URL="mongodb_connection_string that I shared"
    ```
 
    Replace `your_mongodb_connection_string` with your actual MongoDB connection string.
